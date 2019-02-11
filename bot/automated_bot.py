@@ -135,8 +135,3 @@ if __name__ == '__main__':
     bot.user_signups()
     bot.create_posts()
     bot.like_posts_process()
-# users = User.objects.filter(~Q(id=125), posts__likes__isnull=True).distinct()
-# print (users)
-#
-# posts = Post.objects.filter(likes__isnull=True)
-# print(posts)
